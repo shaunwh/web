@@ -1,0 +1,67 @@
+
+/**banner**/
+.banner{
+	width: 100%;
+	height: 316px;
+	background: url(../../images/images_/news_banner.png) no-repeat center center;
+	box-shadow: 1px 1px 5px #888888;
+}
+.title{
+	padding-top:15px;
+	box-shadow: 0 1px 5px #888;
+	margin-top: 10px;
+}
+.title dl dd{
+	line-height: 40px;
+	cursor: pointer;
+	background: url(../../images/images_/line.jpg) no-repeat center bottom;
+}
+.title dl dt{
+	font-size: 16px;
+	font-weight: bold !important;
+}
+.title dl .current a{
+	color:#F60;
+	display: block;
+	background: url(../../images/images_/news_arrow.png) no-repeat right center;
+	text-decoration: none
+}
+.title dl a:hover{
+	text-decoration: none;
+}
+.content,.come,.contact{
+	height: 500px;
+	padding-top:15px;
+}
+.come,.contact{
+	display: none;
+}
+.content p,.come p,.contact p{
+	text-indent: 2em !important;
+	font-size: 14px !important;
+	line-height: 27px;
+}
+.content h3,.come h3,.contact h3{
+	margin-bottom:20px; 
+	border-bottom: 3px solid #F60; 
+	padding-bottom: 10px;
+}
+/**footer**/
+.footer{
+	width: 100%;
+	height: 200px;
+	color: #999;
+	font-size: 12px;
+	background: #2F3239;
+}
+.footer dl{
+	height: 100px;
+}
+.footer dl dd{
+	line-height: 2em
+}
+.footer .copy{
+	border-top:1px solid #666;
+	height: 50px;
+	line-height: 50px;
+}

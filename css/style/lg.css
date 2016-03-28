@@ -1,0 +1,36 @@
+.banner{ background: url(../../images/images_/service_banner.png) no-repeat center top; width: 100%; height: 530px; }
+.banner .container{ position: relative;}
+.banner .container .cloum{ margin-top:370px; height: 200px; left: 0; z-index: 999; width: 100%; }
+.pic{ margin-bottom: 30px; height: 130px; line-height: 130px;}
+.left{ background: #FAFAFA; margin-top:50px; padding:0 !important; border-right: 1px solid #CCC}
+.left .item{ height: 210px; background: #1b232a; color: #4e5153; padding-top: 50px; box-sizing: border-box; cursor: pointer;}
+.left .item:nth-child(1) .img{ background: url(../../images/images_/item_1.png) no-repeat center center;}
+.left .item:nth-child(2) .img{ background: url(../../images/images_/item_4.png) no-repeat center center;}
+.left .item:nth-child(3) .img{ background: url(../../images/images_/item_2.png) no-repeat center center;}
+.left .item:nth-child(4) .img{ background: url(../../images/images_/item_3.png) no-repeat center center;}
+.left .current:nth-child(1) .img{  background: url(../../images/images_/item1_.png) no-repeat center center;}
+.left .current:nth-child(2) .img{  background: url(../../images/images_/item4_.png) no-repeat center center;}
+.left .current:nth-child(3) .img{  background: url(../../images/images_/item2_.png) no-repeat center center;}
+.left .current:nth-child(4) .img{  background: url(../../images/images_/item3_.png) no-repeat center center;}
+.left .current{ color: #FAFAFA;border: 1px solid #CCC; border-right: 0;}
+.left .item .img{  width: 50px; height: 50px; margin: 0 auto 10px;}
+.right{ background: #F1F1F1; height: 420px; margin-top:50px; padding-top: 30px;}
+.text{font-size: 12px; padding: 30px 100px; line-height: 30px;}
+.box{height: 420px;margin: 50px auto;position: relative; padding:0; box-sizing: border-box;}
+.box ul{position: relative;z-index: 1;}
+.box ul li{position: absolute;left: 0;top: 0;}
+.box img {
+  height: 840px;
+  padding:0;
+}
+.image {
+  height: 500px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  text-align: center;
+  padding:0;
+}
+.box span{width: 40px;height: 70px;background: url(../../images/images_/arr.png) no-repeat 0 0;position: absolute;top: 75%;margin-top:-35px;cursor: pointer;z-index: 2;}
+.box .prev{left: 0;}
+.box .next{right: 0;background-position: right 0;}
